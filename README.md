@@ -9,6 +9,8 @@ Twitter メディアダウンローダ (Twitter Media Downloader)
 [Web 版公式 Twitter](https://twitter.com/) の、ユーザーのメディアタイムライン上の画像/動画を、原寸サイズでまとめてダウンロードするためのスクリプト。(A script designed for Twitter user timeline scraping of full size media.)
 
 
+Personal note of Testaccount342: I only know C. I intend to learn JS as I go through this program, just ignore me for now.
+
 ■ インストール方法 (Installation instructions)
 ---
 ### Chrome 拡張機能版  
