@@ -1,14 +1,15 @@
-Twitter メディアダウンローダ (twMediaDownloader)
+Twitter メディアダウンローダ (Twitter Media Downloader)
 ================================================
 
 - License: The MIT license  
 - Copyright (c) 2016 風柳(furyu)  
-- 対象ブラウザ： Google Chrome、Firefox
-
-[Web 版公式 Twitter](https://twitter.com/) の、ユーザーのメディアタイムライン上の画像/動画を、原寸サイズでまとめてダウンロードするためのスクリプト。  
+- 対象ブラウザ(Target/Supported browsers)： Google Chrome、Firefox
 
 
-■ インストール方法 
+[Web 版公式 Twitter](https://twitter.com/) の、ユーザーのメディアタイムライン上の画像/動画を、原寸サイズでまとめてダウンロードするためのスクリプト。(A script designed for Twitter user timeline scraping of full size media.)
+
+
+■ インストール方法 (Installation instructions)
 ---
 ### Chrome 拡張機能版  
 Google Chrome で、  
