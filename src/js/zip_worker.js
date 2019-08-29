@@ -1,10 +1,14 @@
 ( function () {
 
+				//Usa algo ...estricto?
 'use strict';
-
+				//Una condición para algo
 if ( typeof browser == 'undefined' ) { window.browser = chrome; }
 
+				//Declaración de constantes, supongo
+				//Creo que esto dice que el nombre del script es "zip_worker"
 const   SCRIPT_NAME = 'zip_worker',
+      				//¿Desactiva el debug?
         DEBUG = false;
 
 let ZIP_TAB_INFO_MAP = {},
@@ -14,7 +18,7 @@ let ZIP_TAB_INFO_MAP = {},
     IS_CHROME = ( ( ! IS_EDGE ) && ( 0 <= USER_AGENT.indexOf( 'chrome' ) ) ),
     SENDBACK_BLOB_FOR_FIREFOX = false; // Firefox で、Blob を直接（Blob URLに変換せずに）送信
 
-
+				//Función de arreglo?
 function to_array( array_like_object ) {
     return Array.prototype.slice.call( array_like_object );
 } // end of to_array()
