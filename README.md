@@ -1,44 +1,14 @@
-Twitter メディアダウンローダ (Twitter Media Downloader)
+Twitter Media Downloader - Reverse engineering version for studying. All credit to Furyutei here on Github.
 ================================================
 
 - License: The MIT license  
 - Copyright (c) 2016 風柳(furyu)  
-- 対象ブラウザ(Target/Supported browsers)： Google Chrome、Firefox
+- Target/Supported browsers: Google Chrome、Firefox
 
+A script designed for Twitter(https://twitter.com/) user timeline scraping of full size media. 
+Note of Testaccount342: I only know C. I intend to learn JS as I go through this program, just ignore me for now.
 
-[Web 版公式 Twitter](https://twitter.com/) の、ユーザーのメディアタイムライン上の画像/動画を、原寸サイズでまとめてダウンロードするためのスクリプト。(A script designed for Twitter user timeline scraping of full size media.)
-
-
-Personal note of Testaccount342: I only know C. I intend to learn JS as I go through this program, just ignore me for now.
-
-■ インストール方法 (Installation instructions)
----
-### Chrome 拡張機能版  
-Google Chrome で、  
-
-> [Twitter メディアダウンローダ― - Chrome ウェブストア](https://chrome.google.com/webstore/detail/twitter-media-downloader/cblpjenafgeohmnjknfhpdbdljfkndig?hl=ja)  
-
-より拡張機能を追加する。  
-
-
-### Firefox Quantum (WebExtentions)版  
-Firefox Quantum で、  
-
-> [Twitter メディアダウンローダ – Firefox 向けアドオン](https://addons.mozilla.org/ja/firefox/addon/tw-media-downloader/)  
-
-よりアドオンを追加する。  
-
-
-### ユーザースクリプト版（Greasemonkey / Tampermonkey）
-Firefox＋<s>[Greasemonkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/)</s>[Tampermonkey](https://addons.mozilla.org/ja/firefox/addon/tampermonkey/)、Google Chrome＋[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja) の環境で、  
-
-> [Twitter メディアダウンローダ (twMediaDownloader.user.js)](https://furyutei.work/userjs/furyutei/twMediaDownloader.user.js)  
-                                
-をクリックし、指示に従ってインストール。  
-※ Firefox では Quantum(57) + Greasemonkey 4 より動作しなくなった（代わりに Tampermonkey を使用すること）。  
-
-
-■ 使い方
+■ Way of use
 ---
 [Web 版公式 Twitter](https://twitter.com/) 上で、ユーザータイムラインや検索タイムラインを開くと、「メディア↓」のようなリンクが挿入される。  
 ![下向き矢印のリンク](https://cdn-ak.f.st-hatena.com/images/fotolife/f/furyu-tei/20160723/20160723224518.jpg)  
@@ -57,7 +27,7 @@ ZIP 化が完了するか、もしくは[停止]を押すと、対象となる�
 ※ Chrome 拡張機能の場合、この機能は ON/OFF できる。  
 
 
-■ 外部ライブラリなど
+■ External libraries (?)
 ---
 - [jQuery](https://jquery.com/), [jquery/jquery: jQuery JavaScript Library](https://github.com/jquery/jquery)  
     [License | jQuery Foundation](https://jquery.org/license/)  
@@ -86,10 +56,4 @@ ZIP 化が完了するか、もしくは[停止]を押すと、対象となる�
 
 - [jsTwitterOAuth/twitter-api.js](https://github.com/furyutei/jsTwitterOAuth/blob/master/src/js/twitter-oauth/twitter-api.js)  
     Copyright (c) 2018 風柳 (furyu)  
-    [MIT License](https://github.com/furyutei/jsTwitterOAuth/blob/master/LICENSE)  
-
-
-■ 関連記事
----
-- [Twitter メディアダウンローダ：ユーザータイムラインの原寸画像をまとめてダウンロードするユーザースクリプト(PC用Google Chrome・Firefox等対応) - 風柳メモ](http://furyu.hatenablog.com/entry/20160723/1469282864)
-- [Twitter 原寸びゅー：Twitterの原寸画像を開くGoogle Chrome拡張機能＆ユーザースクリプト公開 - 風柳メモ](http://furyu.hatenablog.com/entry/20160116/1452871567)  
+    [MIT License](https://github.com/furyutei/jsTwitterOAuth/blob/master/LICENSE)   
